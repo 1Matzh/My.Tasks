@@ -1,0 +1,52 @@
+@import url("../css/global.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/bg-login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#register-section {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--primary-color);
+    transition: transform 0.9s;
+}
+
+#register-section:hover {
+    transform: scale(1.03);
+}
+
+#register-section h2 {
+    border-bottom: 1px solid var(--shadow);
+    padding-bottom: 10px;
+}
+
+#register-section input {
+    border: 1px solid var(--shadow);
+}
+
+#register-section button {
+    border-radius: 5px;
+}
+
+#register-section input:first-of-type {
+    border-radius: 5px 0px 0px 5px;
+}
+
+#register-section input:last-of-type {
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Hovers */
+
+#register-section button:hover{
+    background-color: var(--secondary-color-hover);
+}

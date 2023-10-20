@@ -1,0 +1,59 @@
+:root {
+    font-family: Arial, sans-serif;
+    --primary-color: rgb(255, 255, 255);
+    --primary-color-hover: rgb(210, 210, 210);
+    --secondary-color: rgb(168, 137, 206);
+    --secondary-color-hover: rgb(155, 128, 188);
+    --shadow: rgba(0, 0, 0, 0.222);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+section {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input,
+button,
+textarea {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+    resize: none;
+}
+
+input[type="date"] {
+    width: 150px;
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 25px;
+    background-color: #E7E7E7;
+}
+
+.wrapper {
+    border-radius: 10px;
+    border: 1px solid var(--shadow);
+    box-shadow: 0px 0px 10px rgba(80, 64, 160, 0.509);
+}
+
+header {
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    border-bottom: 1px solid var(--shadow);
+    padding-bottom: 10px;
+}
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+#sidebar h2 {
+    margin-bottom: 10px;
+}
+
+#task-form {
+    margin-top: 10px;
+}
+
+#task-section {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#task-list li{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#task-list li button {
+    margin: 0px 10px;
+}
+
+#task-name, #task-date, #task-description {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+.completed-task .complete-task {
+    background-color: #ccc;
+}
