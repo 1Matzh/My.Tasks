@@ -27,16 +27,6 @@ Após a criação da tarefa, você poderá:
 
 Salvamento de tarefas: As tarefas e seus status são salvas no localStorage também
 
-## Screenshots
-
-### Registro
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Login
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-### Painel de Tarefas
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 ## Documentação de cores
 
 | Cor               | RGB                                                |
